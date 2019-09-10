@@ -14,13 +14,7 @@ import firebase from 'firebase'
 Vue.config.productionTip = false
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBxy6x_aCNmKfc-6NZ41VF1xjzMRu0m4TM",
-  authDomain: "mental-aad2c.firebaseapp.com",
-  databaseURL: "https://mental-aad2c.firebaseio.com",
-  projectId: "mental-aad2c",
-  storageBucket: "mental-aad2c.appspot.com",
-  messagingSenderId: "224152456751",
-  appId: "1:224152456751:web:26b72b0c0f6b4c35"
+
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
